@@ -58,28 +58,27 @@
 
         <div id="container" class="row row-cols-1 row-cols-md-2 g-3">
 
-            <form action="">
 
-                <p>
-                    <input type="text" id="txtMonto" placeholder="Monto">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Monto</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default" id="txtMonto" placeholder="">
+            </div>
 
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default2">Tipo</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-default" id="txtTipo" placeholder="">
+            </div>
 
-                </p>
-                <p>
-                    <input type="text" id="txtTipo" placeholder="Tipo">
-                </p>
-                <p>
-                    <input type="button" value="Agregar" onclick="agregar()">
-                    <input type="button" value="Cancelar" onclick="cancelar()">
-
-                </p>
-
-            </form>
-
-
-
-
-
+            <div>
+                <button type="button" class="btn btn-outline-success" value="Agregar" onclick="agregar()">Agregar</button>
+                <button type="button" class="btn btn-outline-danger" value="Cancelar" onclick="cancelar()">Cancelar</button>
+            </div>
 
         </div>
 
