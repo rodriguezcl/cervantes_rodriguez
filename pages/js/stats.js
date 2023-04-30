@@ -41,15 +41,15 @@ function verEstadisticas() {
     lblCantEntradas.innerHTML = cantEntradas;
 
     const lblAcumEntradas = document.getElementById("lblAcumEntradas");
-    lblAcumEntradas.innerHTML = `$ ${acumEntradas}`;
+    lblAcumEntradas.innerHTML = `$ ${acumEntradas.toLocaleString()}`;
 
     const lblCantSalidas = document.getElementById("lblCantSalidas");
     lblCantSalidas.innerHTML = cantSalidas;
 
     const lblAcumSalidas = document.getElementById("lblAcumSalidas");
-    lblAcumSalidas.innerHTML = `$ ${acumSalidas}`;
+    lblAcumSalidas.innerHTML = `$ ${acumSalidas.toLocaleString()}`;
    
     const lblDifEntradasSalidas = document.getElementById("lblDifEntradasSalidas");
-    lblDifEntradasSalidas.innerHTML = `$ ${difEntradasSalidas}`;
+    lblDifEntradasSalidas.innerHTML = `$ ${difEntradasSalidas.toLocaleString()}`;
 
 }

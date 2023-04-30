@@ -14,7 +14,7 @@ function verListado() {
 
 
         const td0 = document.createElement("td");
-        td0.innerHTML = m;
+        td0.innerHTML = m.toLocaleString();
 
         const td1 = document.createElement("td");
         td1.innerHTML = t;
